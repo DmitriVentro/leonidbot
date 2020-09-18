@@ -21,7 +21,8 @@ def sendFirstMessage(message):
     tg.send_message(message.chat.id, "Внимание!\nРаботать ТОЛЬКО последовательно по менюшкам, потому что пока что"
                                      " всё сделано сплошными условиями, т.е. хрень может получится,"
                                      " НЕ НАДО включать сейчас режим тестирование головного мозга"
-                                     " (это шутка)", reply_markup=keyboard_main_menu)
+                                     " (это шутка)\nUPD:Забыл добавить выбор дисциплины и выбор группы/направления,"
+                                     "но это поправимо считтаю", reply_markup=keyboard_main_menu)
 
 
 @tg.message_handler(content_types=['text'])
