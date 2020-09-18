@@ -1,3 +1,4 @@
+#!/bin.python3
 import telebot
 
 tg = telebot.TeleBot("1277500164:AAEkU8DbjZX0E6wRa3JDKUKumIjlOuSLsRM")
